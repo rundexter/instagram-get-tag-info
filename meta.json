@@ -4,23 +4,21 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "tag",
+            "title":"Tag"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "media_count",
+            "title":"Total Media"
+        },
+        {
+            "id": "name",
+            "title":"Tag"
         }
-      */
     ],
     "title": "Instagram Get Tag Info" /* Required.A display name for the module */
 }
