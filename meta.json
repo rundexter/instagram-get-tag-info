@@ -20,5 +20,6 @@
             "title":"Tag"
         }
     ],
+    "icon": "instagram",
     "title": "Instagram Get Tag Info" /* Required.A display name for the module */
 }
