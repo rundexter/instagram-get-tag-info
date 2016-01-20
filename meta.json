@@ -2,14 +2,12 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
         {
             "id": "tag",
             "title":"Tag"
         }
     ],
-    //Required. Outputs the module emits.
     "outputs": [
         {
             "id": "media_count",
@@ -20,6 +18,10 @@
             "title":"Tag"
         }
     ],
+    "providers": [{
+        "name": "instagram",
+        "scopes": [ "basic", "public_content" ]
+    }],
     "icon": "instagram",
-    "title": "Instagram Get Tag Info" /* Required.A display name for the module */
+    "title": "Instagram Get Tag Info"
 }
